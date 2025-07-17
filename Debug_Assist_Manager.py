@@ -400,7 +400,7 @@ def main():
         print("8. Fetch all Reported Problems with no Solutions")
         print("9. Fetch all Solutions")
         print("10. Exit")
-        choice = input("Enter your choice (1-8): ").strip()
+        choice = input("Enter your choice (1-10): ").strip()
 
         if choice == '1':
             add_entry()
