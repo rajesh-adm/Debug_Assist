@@ -103,7 +103,23 @@ Enter the author name: sanapalar
 Enter Tech Area (def:Generic): ospf
 Entry saved successfully! Problem will be reported to the lead
 ```
-
+```
+-> Enter your choice (1-10): 2
+Enter the problem to search for (multiple words allowed): dhcp
+No matching problems found.
+Enter the full problem statement: unable to find LSAs in firewall filter accept term from the ospf session
+Enter the author name: sanapalar
+Enter Tech Area (def:Generic): ospf
+Entry saved successfully! Problem will be reported to the lead
+Enter the problem to search for (multiple words allowed): dhcp clients
++----+-----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+-----------+----------+---------------------------------------+
+|| ID | Problem                                                                                                                     | Solution                                             | Author    | TechArea | Link                                  ||
++----+-----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+-----------+----------+---------------------------------------+
+|| 1  | Unable to add dhcp clients on spirent ""undersubscription detected as Average gap (IFG and IBG) (1.25e+10 bytes) is greater | update pps with higher value and verify              | sanapalar | Spirent  | https://spirent.com/documentation     ||
++----+-----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+-----------+----------+---------------------------------------+
+|| 2  | Unable to add dhcp clients on ixia as ports are locked                                                                      | please unlock the ports in settings-->ports-->unlock | sanapalar | ixia     |  https://ixia.com/documentation/ports ||
++----+-----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+-----------+----------+---------------------------------------+
+```
 #### 3. Query Team Stats
 ```
 -> Enter your choice (1-10): 3
