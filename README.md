@@ -105,12 +105,6 @@ Entry saved successfully! Problem will be reported to the lead
 ```
 ```
 -> Enter your choice (1-10): 2
-Enter the problem to search for (multiple words allowed): dhcp
-No matching problems found.
-Enter the full problem statement: unable to find LSAs in firewall filter accept term from the ospf session
-Enter the author name: sanapalar
-Enter Tech Area (def:Generic): ospf
-Entry saved successfully! Problem will be reported to the lead
 Enter the problem to search for (multiple words allowed): dhcp clients
 +----+-----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------+-----------+----------+---------------------------------------+
 || ID | Problem                                                                                                                     | Solution                                             | Author    | TechArea | Link                                  ||
@@ -148,7 +142,6 @@ Enter the problem to search for (multiple words allowed): dhcp clients
 ```
 -> Enter your choice (1-10): 5
 Enter the solution id which is not working: 3
-['3', 'BGP Peers down in evpn vxlan spine', '', 'sailaja', 'BGP', 'NA']
 Entry logged in report successfully! It will be re-verified and updated after review
 ```
 
